@@ -5,9 +5,6 @@ const TodoSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  Detail: {
-    type: String,
-  },  
 });
 
 const Todo = mongoose.model("Todo", TodoSchema);
