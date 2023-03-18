@@ -9,7 +9,7 @@ connectDB();
 
 const corsOptions = {
   origin: "https://todo-client-navy.vercel.app",
-  credentials: true, //access-control-allow-credentials:true
+  credentials: true,
   optionSuccessStatus: 200,
 };
 app.use(express.json());
