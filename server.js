@@ -8,7 +8,7 @@ const app = express();
 connectDB();
 
 const corsOptions = {
-  origin: "https://moatodoapp.vercel.app/",
+  origin: "https://todo-client-navy.vercel.app",
   credentials: true,
   optionSuccessStatus: 200,
 };
