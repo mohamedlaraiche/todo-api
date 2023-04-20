@@ -7,13 +7,8 @@ const app = express();
 
 connectDB();
 
-const corsOptions = {
-  origin: "https://todo-client-navy.vercel.app",
-  credentials: true,
-  optionSuccessStatus: 200,
-};
 app.use(express.json());
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use("/api/todos", router);
 const PORT = process.env.PORT || 5000;

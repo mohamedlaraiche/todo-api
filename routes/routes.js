@@ -7,7 +7,7 @@ const {
 } = require("../controllers/controller");
 
 router.get("/", getTodos);
-router.post("/", setTodo);
+router.post("/create", setTodo);
 router.put("/:id", updateTodo);
 router.delete("/:id", deleteTodo);
 
