@@ -13,5 +13,5 @@ app.use(cors());
 app.use("/api/todos", router);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`server has been connected on ${PORT}`);
+  console.log(`server has been connected on ${PORT} !`);
 });
